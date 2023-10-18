@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %} {% endblock %}- MOVIDLE</title>
+    <title>{% block title %} {% endblock %}</title>
     <!-- Uso de url_for para obtener la ruta de elementos de la página -->
-    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/si1.css') }}/>
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/general.css') }}/>
 
 </head>
 
@@ -16,49 +16,9 @@
                 <div class="base_main1">
                     <img src="{{url_for('static',filename='img/madrid.jpeg')}}">
                 </div>
-
-                <div class="base_main2">
-                    <a href="{{ url_for('index') }}">Home</a>
-                    {% if not session['usuario'] %}
-                        <a href="{{ url_for('login') }}">Sign In</a>
-                        <span>Usuario: An&oacute;nimo</span>
-                    {% else %}
-                        <a href="{{ url_for('logout') }}">Log out</a>
-                        <span>Usuario: {{ session['usuario'] }}</span>
-                    {% endif%}
-                    <form action="/carrito" method="post" novalidate>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <button type="submit">
-                            <input type="hidden" name="id" value="carrit">
-                            <img src="{{url_for('static',filename='img/carrito.jpg')}}" width="20" height="10">
-                        </button>
-                    </form>
-                </div>
         </div>
         <div class="category">
             {% block sidebar %}
-            <div for="categoria">Categorías:<br/></div>
-            <br></br>
-                <form action="/category" method="post" novalidate>
-                    <button type="submit" class="butt_link2">
-                        <input type="hidden" name="category" value="Acción">
-                        <p>Acción</p>
-                    </button>
-                </form>
-                <br></br>
-                <form action="/category" method="post" novalidate>
-                    <button type="submit" class="butt_link2">
-                        <input type="hidden" name="category" value="Drama"> 
-                        <p>Drama</p>
-                    </button>
-                </form>
-                <br></br>
-                <form action="/category" method="post" novalidate>
-                    <button type="submit" class="butt_link2">
-                        <input type="hidden" name="category" value="Aventura">
-                        <p>Aventura</p>
-                    </button>
-                </form>
             {% endblock %}
         </div>
 
@@ -67,8 +27,6 @@
             {% endblock %}
         </div>
     </div>
-    <script src="jquery.js"></script>
-    <script src="categoria.js"></script>
 </body>
 <div="footer"><center>
     <br></br>
