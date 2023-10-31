@@ -85,29 +85,47 @@ body {
 }
     
 @keyframes slide {
-	0% {
+    0% {
         transform: translateX(0);
     }
-    20% {
+    7.69% {
         transform: translateX(0);
     }
-    25% {
-        transform: translateX(-48rem);
+    15.38% {
+        transform: translateX(-100%);
     }
-    45% {
-        transform: translateX(-48rem);
+    23.07% {
+        transform: translateX(-100%);
     }
-    50% {
-        transform: translateX(-96px);
+    30.76% {
+        transform: translateX(-200%);
     }
-    70% {
-        transform: translateX(-96px);
+    38.46% {
+        transform: translateX(-200%);
     }
-    75% {
-        transform: translateX(-144px);
+    46.15% {
+        transform: translateX(-300%);
+    }
+    53.84% {
+        transform: translateX(-300%);
+    }
+    61.53% {
+        transform: translateX(-400%);
+    }
+    69.22% {
+        transform: translateX(-400%);
+    }
+    76.92% {
+        transform: translateX(-500%);
+    }
+    84.61% {
+        transform: translateX(-500%);
+    }
+    92.3% {
+        transform: translateX(-600%);
     }
     100% {
-        transform: translateX(-144px);
+        transform: translateX(-600%);
     }
 }
 
