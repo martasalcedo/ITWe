@@ -5,14 +5,22 @@
     color: #fff;
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 
 .title-header h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif; 
+    color: #566398; 
     font-size: 2.5em;
+    background-color: #a9b4f9;
+    display: inline-block;
+    font-weight: bold;
 }
 
 .title-header .highlight {
-    color: #FFD700; /* Set the highlight color you prefer */
+    color: #ffa500; 
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 header {
@@ -52,11 +60,10 @@ body {
     height: 400px;
     margin: 50px auto 0;
     overflow: hidden;
-    position: relative;
 }
     
 .slider-frame ul {
-    position: absolute;
+    position: static;
     left: 0;
     width: 100%;
     padding: 0;
@@ -72,7 +79,7 @@ body {
 .slider-frame img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: hidden;
 }
     
 @keyframes slide {
@@ -102,10 +109,6 @@ body {
     }
 }
 
-h1 {
-    margin-top: 50px;
-    font-size: 2em;
-}
 
 p {
     margin: 20px 0;
