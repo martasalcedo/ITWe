@@ -1,9 +1,14 @@
-.history content {
-    text-align: center;
+.history .content {
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
-.history content img {
-    max-width: 100%;
-    height: auto;
+.history .content img{
+    max-width: 50px;
+    height: 10px;
     border-radius: 8px;
+    margin-left: 20px;
+    display: none;
 }
