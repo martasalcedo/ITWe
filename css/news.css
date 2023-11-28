@@ -1,0 +1,19 @@
+ul index {
+    list-style: none; 
+    padding: 0;
+    text-decoration: none; /* Elimina el subrayado */
+    color: #000; /* Cambia el color del texto a negro (o tu color preferido) */
+}
+  
+ul li index{
+    border: 1px solid #ccc; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    
+  }
+  
+ul li h2 index{
+    margin: 0; 
+    color: #333; 
+}
+  
