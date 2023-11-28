@@ -1,19 +1,17 @@
-ul index {
+.events-index {
     list-style: none; 
-    padding: 0;
-    text-decoration: none; /* Elimina el subrayado */
-    color: #000; /* Cambia el color del texto a negro (o tu color preferido) */
+    padding:0;
 }
-  
-ul li index{
+
+.events-index li{
     border: 1px solid #ccc; 
     margin-bottom: 10px; 
     padding: 10px; 
-    
-  }
-  
-ul li h2 index{
     margin: 0; 
-    color: #333; 
+   
 }
   
+.events-index li a {
+    text-decoration: none; 
+    color: #000; 
+}
