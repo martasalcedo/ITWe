@@ -1,13 +1,19 @@
-.history .content {
-    text-align: left;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+.content.history {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.history .content img{
-    max-width: 50px;
-    height: 10px;
-    border-radius: 8px;
-    margin-left: 20px;
+img.history {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+p.history {
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
