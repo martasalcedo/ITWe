@@ -1,6 +1,23 @@
-img.services {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
+#hoteles img,
+#restaurantes img,
+#locales img {
+    width: 600px; 
+    height: auto; 
     display: block;
-  }
+    margin: 0 auto;
+}
+
+.menu-link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+  background-color: #2980b9;
+}
