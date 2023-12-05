@@ -1,17 +1,38 @@
 .events-index {
     list-style: none; 
     padding:0;
+    background-color: #222;
 }
 
 .events-index li{
-    border: 1px solid #ccc; 
-    margin-bottom: 10px; 
     padding: 10px; 
     margin: 0; 
+    display: inline-block;
+    background-color: #222;
    
 }
   
 .events-index li a {
     text-decoration: none; 
-    color: #000; 
+    color: white; 
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.events-sidebar {
+    flex: 75%; /* Ocupa el espacio disponible */
+    order: 1; /* Cambia el orden, colocándolo al final */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.news-sidebar {
+    flex: 25%; /* Ocupa el espacio disponible */
+    order: 2; /* Cambia el orden, colocándolo al principio */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
