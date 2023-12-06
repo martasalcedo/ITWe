@@ -36,3 +36,49 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+.events {
+    font-family: "Baskerville", serif;
+    font-size: small;
+    vertical-align: center;
+    text-align: left;
+}
+
+.events h2 {
+    margin-top: 3em;
+}
+
+.events p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.news {
+    font-family: "Baskerville", serif;
+    vertical-align: center;
+   
+    
+}
+
+.news li {
+    list-style: none;
+    font-size: small;
+    margin-top: 2em;
+    display:flex;
+    justify-content: center;
+    
+}
+.news li img {
+    align-content: center;
+}
+
+.news li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
