@@ -11,7 +11,7 @@
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
-  color: #fff;
+  color: #050505;
   background-color: #3498db;
   border-radius: 5px;
   margin: 5px;
@@ -20,4 +20,8 @@
 
 .menu-link:hover {
   background-color: #2980b9;
+}
+
+.services section {
+  margin-bottom: 20px; 
 }
