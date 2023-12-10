@@ -1,0 +1,36 @@
+section {
+    margin-left: 1em;
+    margin-right:  1em;
+    width: 700px;
+    text-align: left;
+}
+
+section h2 a{
+    text-decoration: none;
+    color:black
+}
+
+section p{
+    font-size: medium;
+}
+
+section img{
+    margin-top: 5em;;
+    width: 700px;
+    height: 400px;
+    
+}
+
+.container {
+    margin-top: 3em;
+    margin-left: 1em;
+    margin-right:  1em;
+}
+
+.container h1{
+    font-size: 2em;
+}
+
+article{
+    justify-content: center;
+}
