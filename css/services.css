@@ -1,27 +1,25 @@
+/* Targeting images within specific sections */
 #hoteles img,
 #restaurantes img,
 #locales img {
-    width: 600px; 
-    height: auto; 
-    display: block;
-    margin: 0 auto;
+  width: 600px; /* Set a fixed width of 600 pixels for the images */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+  display: block; /* Display images as block-level elements */
+  margin: 0 auto; /* Center the images horizontally within their containers */
 }
 
+/* Styling for menu links */
 .menu-link {
-  display: inline-block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #050505;
-  background-color: #3498db;
-  border-radius: 5px;
-  margin: 5px;
-  transition: background-color 0.3s ease;
+  display: inline-block; /* Display links as inline-block elements */
+  padding: 10px 20px; /* Apply padding around the links */
+  text-decoration: none; /* Remove underline from the links */
+  color: #050505; /* Set text color for the links */
+  background-color: #3498db; /* Set background color for the links */
+  border-radius: 5px; /* Apply border radius to create rounded corners */
+  margin: 5px; /* Apply margin around the links */
 }
 
-.menu-link:hover {
-  background-color: #2980b9;
-}
-
+/*To leave a margin at the end of the page before the footer*/
 .services section {
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }

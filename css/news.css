@@ -1,80 +1,82 @@
+/* Styles for the events index container */
 .events-index {
-    list-style: none; 
-    padding:0;
-    background-color: #222;
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding from the list */
+  background-color: #222; /* Set background color for the events index container */
 }
 
-.events-index li{
-    padding: 10px; 
-    margin: 0; 
-    display: inline-block;
-    background-color: #222;
-   
+/* Styles for list items within the events index */
+.events-index li {
+  padding: 10px; /* Add padding to each list item */
+  margin: 0; /* Remove margin from each list item */
+  display: inline-block; /* Display list items horizontally */
+  background-color: #222; /* Set background color for each list item */
 }
-  
+
+/* Styles for links within list items */
 .events-index li a {
-    text-decoration: none; 
-    color: white; 
+  text-decoration: none; /* Remove underline from links */
+  color: white; /* Set text color for links within the events index */
 }
+
+/* Styles for the main container */
 .container {
-    display: flex;
-    justify-content: space-between;
+  display: flex; /* Set the container to a flex container */
+  justify-content: space-between; /* Space items evenly along the main axis */
 }
 
+/* Styles for the events sidebar */
 .events-sidebar {
-    flex: 80%; /* Ocupa el espacio disponible */
-    order: 1; /* Cambia el orden, colocándolo al final */
-    padding: 20px;
+  flex: 80%; /* Occupy 80% of the available space */
+  order: 1; /* Change the order to place it at the end */
+  padding: 20px; /* Add padding to the events sidebar */
 }
 
+/* Styles for the news sidebar */
 .news-sidebar {
-    flex: 20%; /* Ocupa el espacio disponible */
-    order: 2; /* Cambia el orden, colocándolo al principio */
-    padding: 20px;
-    border-left: 1px solid #ccc;
-    
+  flex: 20%; /* Occupy 20% of the available space */
+  order: 2; /* Change the order to place it at the beginning */
+  padding: 20px; /* Add padding to the news sidebar */
+  border-left: 1px solid #ccc; /* Add a left border to separate the news sidebar */
 }
 
+/* Styles for the events section */
 .events {
-    font-family: "Baskerville", serif;
-    font-size: small;
-    vertical-align: center;
-    text-align: left;
+  font-family: "Baskerville", serif; /* Set font family for the events section */
+  font-size: small; /* Set font size for the events section */
+  vertical-align: center; /* Vertical alignment (not recommended for the container) */
+  text-align: left; /* Left-align text within the events section */
 }
 
+/* Styles for the heading within the events section */
 .events h2 {
-    margin-top: 3em;
+  margin-top: 3em; /* Add top margin to the heading within the events section */
 }
 
+/* Styles for links within paragraphs in the events section */
 .events p a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set text color for links within paragraphs */
+  font-weight: bold; /* Set font weight for links within paragraphs */
 }
 
-
+/* Styles for the news section */
 .news {
-    font-family: "Baskerville", serif;
-    vertical-align: center;
-   
-    
+  font-family: "Baskerville", serif; /* Set font family for the news section */
+  vertical-align: center; /* Vertical alignment (not recommended for the container) */
 }
 
+/* Styles for list items within the news section */
 .news li {
-    list-style: none;
-    font-size: small;
-    margin-top: 2em;
-   
-
-    
+  list-style: none; /* Remove default list styling */
+  font-size: small; /* Set font size for list items within the news section */
+  margin-top: 2em; /* Add top margin to list items within the news section */
 }
 
-
+/* Styles for links within list items in the news section */
 .news li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: medium;
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set text color for links within list items */
+  font-weight: bold; /* Set font weight for links within list items */
+  font-size: medium; /* Set font size for links within list items */
 }
-
-

@@ -1,36 +1,51 @@
+/* Styles for generic section elements */
 section {
-    margin-left: 1em;
-    margin-right:  1em;
-    width: 700px;
-    text-align: left;
+  margin-left: 1em; /* Set left margin for section elements */
+  margin-right: 1em; /* Set right margin for section elements */
+  width: 700px; /* Set a fixed width for section elements */
+  text-align: left; /* Left-align text within section elements */
 }
 
-section h2 a{
-    text-decoration: none;
-    color:black
+/* Styles for links within h2 elements inside section elements */
+section h2 a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set text color for links within h2 elements */
 }
 
-section p{
-    font-size: medium;
+/* Styles for paragraphs inside section elements */
+section p {
+  font-size: medium; /* Set font size for paragraphs within section elements */
+  text-align: justify; /* Justify text within paragraphs */
 }
 
-section img{
-    margin-top: 5em;;
-    width: 700px;
-    height: 400px;
-    
+/* Styles for images inside section elements */
+section img {
+  margin-top: 5em; /* Add top margin to images within section elements */
+  width: 700px; /* Set a fixed width for images within section elements */
+  height: 400px; /* Set a fixed height for images within section elements */
 }
 
+/* Styles for a container element */
 .container {
-    margin-top: 3em;
-    margin-left: 1em;
-    margin-right:  1em;
+  margin-top: 3em; /* Add top margin to the container element */
+  margin-left: 1em; /* Set left margin for the container element */
+  margin-right: 1em; /* Set right margin for the container element */
+  justify-content: center; /* Center-align content horizontally within the container */
+  align-items: center; /* Center-align content vertically within the container */
+  text-align: justify; /* Justify text within the container */
 }
 
-.container h1{
-    font-size: 2em;
+/* Styles for h1 elements inside the container */
+.container h1 {
+  font-size: 2em; /* Set font size for h1 elements within the container */
+  text-align: center; /* Center-align text within h1 elements */
 }
 
-article{
-    justify-content: center;
+/* Styles for generic article elements */
+article {
+  display: flex; /* Set the article element as a flex container */
+  flex-direction: column; /* Arrange items in a column within the flex container */
+  align-items: center; /* Center-align items horizontally within the flex container */
+  justify-content: center; /* Center-align items vertically within the flex container */
+  text-align: center; /* Center-align text within the article element */
 }

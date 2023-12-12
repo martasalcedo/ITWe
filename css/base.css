@@ -1,208 +1,218 @@
+/* Styles for the title header */
 .title-header {
-    background-image: url('../img/madrid-background.jpeg'); /* Replace with your header image */
-    /*background-size: cover;*/
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: relative;
+  background-image: url("../img/madrid-background.jpeg"); /* Replace with your header image */
+  /*background-size: cover;*/ /* Uncomment if you want the background image to cover the entire container */
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
 }
 
+/* Styles for the main heading within the title header */
 .title-header h1 {
-    font-family: "Helvetica Neue", Arial, sans-serif; 
-    color: #333; 
-    font-size: 2.5em;
-    display: inline-block;
-    font-weight: bold;
-    text-shadow: -2px 2px 0 white, 
-                          2px 2px 0 white, 
-                         2px -2px 0 white, 
-                        -2px -2px 0 white; 
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  font-size: 2.5em;
+  display: inline-block;
+  font-weight: bold;
+  text-shadow: -2px 2px 0 white, 2px 2px 0 white, 2px -2px 0 white,
+    -2px -2px 0 white;
 }
 
+/* Styles for highlighted text within the main heading */
 .title-header .highlight {
-    color: #e5b45a; 
-    text-transform: uppercase;
-    font-weight: bold;
+  color: #e5b45a;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
+/* Styles for the header/navigation bar */
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1;
 }
 
+/* Styles for the navigation menu */
 nav {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
+/* Styles for the body content */
 body {
-    
-    font-family: "Baskerville", serif;
-    vertical-align: center;
-    text-align: center;    
+  font-family: "Baskerville", serif;
+  text-align: center;
 }
 
-
+/* Styles for the image slider */
 .slider-frame {
-    position: relative;
-    max-width: 48rem;
-    height: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    z-index: 0;
+  position: relative;
+  max-width: 48rem;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 0;
 }
-    
+
 .slider-frame ul {
-    position: static;
-    left: 0;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    list-style: none;
-    animation: slide 50s infinite;
+  position: static;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  animation: slide 50s infinite;
 }
-    
+
 .slider-frame li {
-    flex: 1 0 100%;
+  flex: 1 0 100%;
 }
-    
+
 .slider-frame img {
-    width: 100%;
-    flex: 1 0 100%;
-    object-fit: cover;
+  width: 100%;
+  flex: 1 0 100%;
+  object-fit: cover;
 }
-    
+
 @keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-    7.14% {
-        transform: translateX(0);
-    }
-    14.28% {
-        transform: translateX(-100%);
-    }
-    21.42% {
-        transform: translateX(-200%);
-    }
-    28.56% {
-        transform: translateX(-300%);
-    }
-    35.7% {
-        transform: translateX(-400%);
-    }
-    42.84% {
-        transform: translateX(-500%);
-    }
-    49.98% {
-        transform: translateX(-600%);
-    }
-    57.12% {
-        transform: translateX(-700%);
-    }
-    64.26% {
-        transform: translateX(-800%);
-    }
-    71.4% {
-        transform: translateX(-900%);
-    }
-    78.54% {
-        transform: translateX(-1000%);
-    }
-    85.68% {
-        transform: translateX(-1100%);
-    }
-    92.82% {
-        transform: translateX(-1200%);
-    }
-    100% {
-        transform: translateX(-1300%);
-    }
+  /* Keyframe animations for image slider */
+  0% {
+    transform: translateX(0);
+  }
+  7.14% {
+    transform: translateX(0);
+  }
+  14.28% {
+    transform: translateX(-100%);
+  }
+  21.42% {
+    transform: translateX(-200%);
+  }
+  28.56% {
+    transform: translateX(-300%);
+  }
+  35.7% {
+    transform: translateX(-400%);
+  }
+  42.84% {
+    transform: translateX(-500%);
+  }
+  49.98% {
+    transform: translateX(-600%);
+  }
+  57.12% {
+    transform: translateX(-700%);
+  }
+  64.26% {
+    transform: translateX(-800%);
+  }
+  71.4% {
+    transform: translateX(-900%);
+  }
+  78.54% {
+    transform: translateX(-1000%);
+  }
+  85.68% {
+    transform: translateX(-1100%);
+  }
+  92.82% {
+    transform: translateX(-1200%);
+  }
+  100% {
+    transform: translateX(-1300%);
+  }
 }
 
-
+/* Styles for paragraphs and buttons */
 p {
-    margin: 20px 0;
-    font-size: 1.2em;
+  margin: 20px 0;
+  font-size: 1.2em;
 }
 
 .explore-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1em;
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    margin-bottom: 40px;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin-bottom: 40px;
 }
 
 .explore-button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
-/* Footer Styles */
+/* Styles for the footer */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
 }
 
+/* Styles for the footer content */
 .footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
+/* Styles for individual sections within the footer */
 .footer-section {
-    padding: 10px;
-    flex: 1;
-    text-align: center;
+  padding: 10px;
+  flex: 1;
+  text-align: center;
 }
 
+/* Styles for heading within footer sections */
 .footer-section h2 {
-    font-size: 1.2em;
+  font-size: 1.2em;
 }
 
+/* Styles for paragraph text within footer sections */
 .footer-section p {
-    font-size: 0.9em;
-    text-align: justify;
+  font-size: 0.9em;
+  text-align: justify;
 }
 
+/* Styles for unordered lists within footer sections */
 .footer-section ul {
-    list-style: none;
-    font-size: 0.9em;
-    padding: 0;
+  list-style: none;
+  font-size: 0.9em;
+  padding: 0;
 }
 
+/* Styles for list items within unordered lists */
 .footer-section ul li {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
+/* Styles for anchor links within footer sections */
 .footer-section a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
+/* Styles for the bottom section of the footer */
 .footer-bottom {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #222;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #222;
 }
-

@@ -1,24 +1,20 @@
+/* Styles for the body with the class 'history' */
+body.history {
+  flex-direction: column; /* Set the flex container to column direction */
+  align-items: center; /* Center-align items horizontally within the container */
+  text-align: justify; /* Justify text within the container */
+  justify-content: center; /* Center-align items vertically within the container */
+}
+
+/* Styles for the content within the 'history' class */
 .history .content {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Set the maximum width of the content */
+  margin: 0 auto; /* Center the content horizontally using automatic left and right margins */
 }
 
-.history img{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 15px;
-  float: left;
-}
-
-.history p{
-  line-height: 1.6;
-  margin-bottom: 15px;
-  float: right;
-}
-
-.history img + p {
-  margin-top: 15px;
+/* Styles for images within the 'history' class content */
+.history .content img {
+  margin-top: 10px; /* Add margin space at the top of each image */
+  width: 100%; /* Make images fill their container */
+  margin-bottom: 10px; /* Add some space between images and text */
 }

@@ -1,33 +1,38 @@
 <!--Services (accommodation, restaurants, sections for locals, etc.)-->
+<!-- HTML structure for the Services page -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information for character set and viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to external CSS stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../css/contact.css">
     <link rel="stylesheet" type="text/css" href="../css/base.css">
-    <link rel="stylesheet" type="text/css" href="../css/services.css">
 
+    <!-- Header with navigation links -->
+    <header>
+        <nav>
+            <a href="index.html">Main Page</a>
+            <a href="news.html">News & Events</a>
+            <a href="history.html">History</a>
+            <a href="sightseeings.html">Sightseeings</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <title>Explore Madrid</title>
-    <header class="title-header">
-        <h1>Welcome to <span class="highlight">Madrid</span></h1>
-
-        <header>
-            <nav>
-                <a href="index.html">Main Page</a>
-                <a href="news.html">News & Events</a>
-                <a href="history.html">History</a>
-                <a href="sightseeings.html">Sightseeings</a>
-                <a href="services.html">Services</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
-    </header>   
+    <!-- Internal style block (empty in this case) -->
+    <style></style>
 </head>
 <body class="services">
     <div class="content">
+        <!-- Menu links for different sections -->
         <a class="menu-link" href="#hoteles">Accomodation</a><a class="menu-link" href="#restaurantes">Restaurants</a><a class="menu-link" href="#locales">Dance Clubs</a>
         <section id="hoteles">
+            <!-- Section for accommodation -->
             <h1>To sleep:</h1>
             <article>
                 <h3>Hotel Emperador</h3>
@@ -47,7 +52,8 @@
         </section>
 
         <section id="restaurantes">
-            <h1>To eat the typical Madrid food:</h1>
+            <!-- Section for restaurants -->
+            <h1>To taste the typical Madrid food:</h1>
             <article>
                 <h3>Restaurante Malacatín</h3>
                 <img src="../img/services4.jpg"></img>
@@ -61,7 +67,8 @@
         </section>
 
         <section id="locales">
-            <h1>To hang out:</h1>
+            <!-- Section for dance clubs -->
+            <h1>To go partying:</h1>
             <article>
                 <h3>Teatro Barceló</h3>
                 <img src="../img/services6.jpg"></img>
@@ -75,14 +82,18 @@
         </section>
     </div>
 </body>
+
+<!-- Footer section with information about Madrid and quick links -->
 <footer>
     <div class="container">
         <div class="footer-content">
+            <!-- About Madrid section -->
             <div class="footer-section about">
                 <h2>About Madrid</h2>
-                <p>Madrid, the vibrant capital of Spain, is a captivating blend of rich history and modern energy. Explore world-class art museums, savor delicious tapas, and soak in the lively street life in this city where tradition meets contemporary flair, 
-                a city where the past and present seamlessly intertwine, creating a dynamic and unforgettable urban experience. Discover the magic here.</p>
+                <p>Madrid, the vibrant capital of Spain, is a captivating blend of rich history and modern energy. Explore world-class art museums, savor delicious tapas, and soak in the lively street life in this city where tradition meets contemporary flair, a city where the past and present seamlessly intertwine, creating a dynamic and unforgettable urban experience. Discover the magic here.</p>
             </div>
+
+            <!-- Quick Links section -->
             <div class="footer-section links">
                 <h2>Quick Links</h2>
                 <ul>
@@ -94,6 +105,8 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+
+            <!-- Contact Information section -->
             <div class="footer-section contact">
                 <h2>Contact Information</h2>
                 <p>Email: info@madrid.com</p>
@@ -101,6 +114,8 @@
             </div>
         </div>
     </div>
+
+    <!-- Bottom section of the footer with copyright information -->
     <div class="footer-bottom">
         &copy; 2023 Madrid Presentation | All rights reserved
     </div>

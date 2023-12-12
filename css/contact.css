@@ -1,20 +1,25 @@
+/* Styles for the contact section */
 .contact {
-    text-align: center;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+  text-align: center; /* Center-align text within the contact section */
+  max-width: 100%; /* Ensure the contact section takes up the full width of its container */
+  margin: 0 auto; /* Center the contact section horizontally using automatic left and right margins */
+  padding: 20px; /* Add padding to the contact section for better spacing */
 }
 
+/* Styles for the map */
 .map {
-    width: 40%; 
-    height: 300px; 
+  width: 40%; /* Set the width of the map container */
+  height: 300px; /* Set the height of the map container */
 }
 
+/* Styles for the table container */
 .table-container {
-    margin-top: 20px; 
-    margin: 0 auto;
+  margin-top: 20px; /* Add margin space at the top of the table container */
+  margin: 0 auto; /* Center the table container horizontally using automatic left and right margins */
 }
 
-.table-container th, .table-container td {
-    padding: 8px 12px; 
+/* Styles for table headers and cells within the table container */
+.table-container th,
+.table-container td {
+  padding: 8px 12px; /* Set padding for better spacing inside table cells */
 }
